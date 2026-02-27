@@ -11,7 +11,8 @@ export default function Pricing() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4">Pricing</h1>
-            <p className="text-xl text-slate-600 mb-4">Annual discount available.</p>
+            <p className="text-xl text-slate-600 mb-2">Annual discount available.</p>
+            <p className="text-primary font-semibold">All plans include a 14-day free trial. No credit card required.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
@@ -37,7 +38,7 @@ export default function Pricing() {
                   ))}
                 </ul>
                 <Button className={`w-full ${plan.popular ? 'bg-primary text-white hover:bg-violet-700 shadow-md' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}>
-                  Start Now
+                  Start 14-Day Free Trial
                 </Button>
               </div>
             ))}

@@ -46,9 +46,9 @@ export default function Home() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-8 text-sm text-slate-400 animate-in fade-in duration-700 delay-700">
+            <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> 14-day free trial</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> No setup fees</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> Cancel anytime</span>
-            <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> Done for you</span>
           </div>
         </div>
       </section>
