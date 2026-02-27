@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function Pricing() {
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-blue-100/50 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-violet-100/50 rounded-full blur-[120px] pointer-events-none" />
 
       <section className="py-24 relative bg-slate-50">
         <div className="container mx-auto px-4 md:px-8">
@@ -36,7 +36,7 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <Button className={`w-full ${plan.popular ? 'bg-primary text-white hover:bg-blue-700 shadow-md' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}>
+                <Button className={`w-full ${plan.popular ? 'bg-primary text-white hover:bg-violet-700 shadow-md' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}>
                   Start Now
                 </Button>
               </div>

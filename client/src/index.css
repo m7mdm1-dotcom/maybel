@@ -42,7 +42,7 @@
   --popover: 0 0% 100%;
   --popover-foreground: 222 47% 11%;
   
-  --primary: 230 70% 45%;
+  --primary: 262 83% 48%;
   --primary-foreground: 210 40% 98%;
   
   --secondary: 210 40% 96.1%;
@@ -59,7 +59,7 @@
 
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 230 70% 45%;
+  --ring: 262 83% 48%;
 
   --radius: 0.75rem;
 }
@@ -81,7 +81,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #1e3a8a, #4f46e5);
+  background: linear-gradient(135deg, #5b21b6, #7c3aed, #6d28d9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

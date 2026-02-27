@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
 
-      {/* HERO SECTION - Centered, impactful */}
+      {/* HERO SECTION */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-50/80 via-white to-white pointer-events-none" />
-        <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] bg-blue-200/30 rounded-full blur-[100px] pointer-events-none" />
-        <div className="absolute bottom-[-100px] left-[-150px] w-[400px] h-[400px] bg-indigo-200/20 rounded-full blur-[80px] pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-violet-50/80 via-white to-white pointer-events-none" />
+        <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] bg-violet-200/30 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute bottom-[-100px] left-[-150px] w-[400px] h-[400px] bg-purple-200/20 rounded-full blur-[80px] pointer-events-none" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center max-w-4xl py-20">
           <div className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-10 duration-700 delay-500">
             <Link href="/contact">
-              <Button size="lg" className="h-14 px-10 text-base bg-primary hover:bg-blue-700 text-white shadow-lg shadow-primary/25 rounded-full">
+              <Button size="lg" className="h-14 px-10 text-base bg-primary hover:bg-violet-700 text-white shadow-lg shadow-primary/25 rounded-full">
                 Book a Demo <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHAT IS MAYBEL - Clean cards layout */}
+      {/* WHAT IS MAYBEL */}
       <section className="relative py-24 bg-white">
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* OUR PROCESS - Timeline style */}
+      {/* OUR PROCESS */}
       <section className="py-24 relative bg-slate-50 overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center max-w-3xl mx-auto mb-20">
@@ -93,7 +93,6 @@ export default function Home() {
           </div>
 
           <div className="max-w-5xl mx-auto relative">
-            {/* Vertical line */}
             <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-slate-200 -translate-x-1/2" />
 
             {[
@@ -153,7 +152,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DASHBOARD PREVIEW + STATS */}
+      {/* DASHBOARD PREVIEW */}
       <section className="py-24 relative bg-slate-50">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
@@ -177,7 +176,7 @@ export default function Home() {
               </ul>
               <div className="pt-4">
                 <Link href="/platform">
-                  <Button className="bg-primary text-white hover:bg-blue-700 rounded-full px-8">View All Features &rarr;</Button>
+                  <Button className="bg-primary text-white hover:bg-violet-700 rounded-full px-8">View All Features &rarr;</Button>
                 </Link>
               </div>
             </div>

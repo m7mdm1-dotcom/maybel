@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-blue-100/50 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-violet-100/50 rounded-full blur-[120px] pointer-events-none" />
 
       <section className="py-24 relative bg-white">
         <div className="container mx-auto px-4 md:px-8">
@@ -58,7 +58,7 @@ export default function Contact() {
 
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <Mail className="w-6 h-6 text-primary" />
                     </div>
                     <div>
@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <MapPin className="w-6 h-6 text-primary" />
                     </div>
                     <div>
@@ -79,7 +79,7 @@ export default function Contact() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <Clock className="w-6 h-6 text-primary" />
                     </div>
                     <div>
@@ -180,7 +180,7 @@ export default function Contact() {
                         type="submit"
                         size="lg"
                         disabled={mutation.isPending}
-                        className="w-full h-14 text-base bg-primary text-white hover:bg-blue-700 shadow-lg shadow-primary/30 rounded-xl group disabled:opacity-60"
+                        className="w-full h-14 text-base bg-primary text-white hover:bg-violet-700 shadow-lg shadow-primary/30 rounded-xl group disabled:opacity-60"
                       >
                         {mutation.isPending ? "Sending..." : "Send Message"} <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                       </Button>

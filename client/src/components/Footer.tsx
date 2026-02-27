@@ -8,7 +8,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2 space-y-6">
             <Link href="/">
               <span className="text-2xl font-bold tracking-tight text-white cursor-pointer">
-                MAYBEL<span className="text-blue-500">.</span>
+                MAYBEL<span className="text-violet-500">.</span>
               </span>
             </Link>
             <div className="space-y-2">
@@ -19,25 +19,25 @@ export function Footer() {
                 In high-speed markets, businesses need systems — not disconnected tools.
               </p>
             </div>
-            <p className="text-blue-400 font-medium text-sm">
+            <p className="text-violet-400 font-medium text-sm">
               We don't sell tools. We build growth infrastructure.
             </p>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/about"><span className="hover:text-blue-400 transition-colors cursor-pointer">About Us</span></Link></li>
-              <li><Link href="/platform"><span className="hover:text-blue-400 transition-colors cursor-pointer">Platform</span></Link></li>
-              <li><Link href="/pricing"><span className="hover:text-blue-400 transition-colors cursor-pointer">Pricing</span></Link></li>
-              <li><Link href="/blog"><span className="hover:text-blue-400 transition-colors cursor-pointer">Blog</span></Link></li>
+              <li><Link href="/about"><span className="hover:text-violet-400 transition-colors cursor-pointer">About Us</span></Link></li>
+              <li><Link href="/platform"><span className="hover:text-violet-400 transition-colors cursor-pointer">Platform</span></Link></li>
+              <li><Link href="/pricing"><span className="hover:text-violet-400 transition-colors cursor-pointer">Pricing</span></Link></li>
+              <li><Link href="/blog"><span className="hover:text-violet-400 transition-colors cursor-pointer">Blog</span></Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-6">Legal</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/privacy"><span className="hover:text-blue-400 transition-colors cursor-pointer">Privacy Policy</span></Link></li>
-              <li><Link href="/terms"><span className="hover:text-blue-400 transition-colors cursor-pointer">Terms of Service</span></Link></li>
-              <li><Link href="/contact"><span className="hover:text-blue-400 transition-colors cursor-pointer">Contact</span></Link></li>
+              <li><Link href="/privacy"><span className="hover:text-violet-400 transition-colors cursor-pointer">Privacy Policy</span></Link></li>
+              <li><Link href="/terms"><span className="hover:text-violet-400 transition-colors cursor-pointer">Terms of Service</span></Link></li>
+              <li><Link href="/contact"><span className="hover:text-violet-400 transition-colors cursor-pointer">Contact</span></Link></li>
             </ul>
           </div>
         </div>

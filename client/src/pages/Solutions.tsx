@@ -8,12 +8,12 @@ import solutionsHero from "../assets/images/solutions-hero.png";
 export default function Solutions() {
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-blue-100/50 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-violet-100/50 rounded-full blur-[120px] pointer-events-none" />
 
       {/* HERO SECTION */}
       <section className="relative container mx-auto px-4 md:px-8 pt-16 pb-24 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-8 z-10">
-          <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-blue-50 text-blue-700 ring-1 ring-inset ring-blue-700/10 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
             Tailored For Your Industry
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
@@ -26,7 +26,7 @@ export default function Solutions() {
         </div>
         
         <div className="flex-1 relative w-full aspect-square md:aspect-auto md:h-[500px] animate-in fade-in zoom-in duration-1000 delay-300">
-          <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent rounded-full blur-3xl z-0" />
+          <div className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent rounded-full blur-3xl z-0" />
           <div className="relative z-10 w-full h-full rounded-2xl overflow-hidden border border-slate-200/50 shadow-2xl bg-white">
             <img 
               src={solutionsHero} 
@@ -55,7 +55,7 @@ export default function Solutions() {
               { icon: TrendingUp, title: "Clear Revenue Tracking", desc: "Real-time dashboards show exactly where your money comes from and where it's getting stuck." }
             ].map((item, i) => (
               <div key={i} className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
                   <item.icon className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
@@ -86,7 +86,7 @@ export default function Solutions() {
                 { title: "Education & Coaching", desc: "Automate student enrollment, manage class schedules, and handle subscription payments." },
                 { title: "Multi-location Businesses", desc: "Centralize data while maintaining localized permissions and routing leads geographically." }
               ].map((industry, i) => (
-                <div key={i} className="flex flex-col p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors group">
+                <div key={i} className="flex flex-col p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-violet-200 transition-colors group">
                   <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-primary transition-colors">{industry.title}</h3>
                   <p className="text-slate-600 mb-6 flex-1">{industry.desc}</p>
                   <Link href="/contact">

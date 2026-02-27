@@ -23,7 +23,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Link href="/">
             <span className="text-2xl font-bold tracking-tight text-primary cursor-pointer">
-              MAYBEL<span className="text-blue-600">.</span>
+              MAYBEL<span className="text-violet-500">.</span>
             </span>
           </Link>
         </div>
@@ -46,7 +46,7 @@ export function Navbar() {
             Login
           </Button>
           <Link href="/contact">
-            <Button className="bg-primary text-white hover:bg-blue-700 shadow-md">
+            <Button className="bg-primary text-white hover:bg-violet-700 shadow-md">
               Book a Demo
             </Button>
           </Link>

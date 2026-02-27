@@ -7,8 +7,8 @@ export default function Platform() {
 
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-50/80 via-white to-white pointer-events-none" />
-        <div className="absolute top-[-150px] right-[-150px] w-[500px] h-[500px] bg-blue-200/30 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-violet-50/80 via-white to-white pointer-events-none" />
+        <div className="absolute top-[-150px] right-[-150px] w-[500px] h-[500px] bg-violet-200/30 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center max-w-4xl py-20">
           <span className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-8">

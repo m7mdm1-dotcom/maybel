@@ -3,7 +3,7 @@ import { GlobalCTA } from "@/components/GlobalCTA";
 export default function Blog() {
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-blue-100/50 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-violet-100/50 rounded-full blur-[120px] pointer-events-none" />
 
       <section className="py-24 relative bg-white">
         <div className="container mx-auto px-4 md:px-8">
