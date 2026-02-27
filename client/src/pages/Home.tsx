@@ -42,11 +42,6 @@ export default function Home() {
         <div className="absolute bottom-[-100px] left-[-150px] w-[400px] h-[400px] bg-purple-200/20 rounded-full blur-[80px] pointer-events-none" />
 
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center max-w-4xl py-20">
-          <div className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <Play className="w-3 h-3 me-2 fill-primary" />
-            {t("home.badge")}
-          </div>
-
           <h1 className="text-4xl sm:text-5xl md:text-[5rem] font-extrabold tracking-tight text-slate-900 leading-[1.05] mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
             {t("home.title1")}
             <span className="text-gradient">{t("home.titleHighlight")}</span>
