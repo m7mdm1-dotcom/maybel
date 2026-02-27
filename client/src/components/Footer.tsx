@@ -1,12 +1,16 @@
+import { Link } from "wouter";
+
 export function Footer() {
   return (
     <footer className="bg-slate-950 text-slate-400 py-16 border-t border-slate-900 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-2 space-y-6">
-            <span className="text-2xl font-bold tracking-tight text-white">
-              MAYBEL<span className="text-blue-500">.</span>
-            </span>
+            <Link href="/">
+              <span className="text-2xl font-bold tracking-tight text-white cursor-pointer">
+                MAYBEL<span className="text-blue-500">.</span>
+              </span>
+            </Link>
             <div className="space-y-2">
               <p className="max-w-xs text-sm leading-relaxed text-slate-400">
                 MAYBEL was created for founders who want structure instead of chaos.
@@ -22,18 +26,18 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#about" className="hover:text-blue-400 transition-colors">About Us</a></li>
-              <li><a href="#platform" className="hover:text-blue-400 transition-colors">Platform</a></li>
-              <li><a href="#pricing" className="hover:text-blue-400 transition-colors">Pricing</a></li>
-              <li><a href="#blog" className="hover:text-blue-400 transition-colors">Blog</a></li>
+              <li><Link href="/about"><span className="hover:text-blue-400 transition-colors cursor-pointer">About Us</span></Link></li>
+              <li><Link href="/platform"><span className="hover:text-blue-400 transition-colors cursor-pointer">Platform</span></Link></li>
+              <li><Link href="/pricing"><span className="hover:text-blue-400 transition-colors cursor-pointer">Pricing</span></Link></li>
+              <li><Link href="/blog"><span className="hover:text-blue-400 transition-colors cursor-pointer">Blog</span></Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-6">Legal</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#terms" className="hover:text-blue-400 transition-colors">Terms of Service</a></li>
-              <li><a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a></li>
+              <li><Link href="/privacy"><span className="hover:text-blue-400 transition-colors cursor-pointer">Privacy Policy</span></Link></li>
+              <li><Link href="/terms"><span className="hover:text-blue-400 transition-colors cursor-pointer">Terms of Service</span></Link></li>
+              <li><Link href="/contact"><span className="hover:text-blue-400 transition-colors cursor-pointer">Contact</span></Link></li>
             </ul>
           </div>
         </div>
