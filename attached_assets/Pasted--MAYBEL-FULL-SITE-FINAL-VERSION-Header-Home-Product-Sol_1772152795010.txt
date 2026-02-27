@@ -1,0 +1,347 @@
+🟣 MAYBEL – FULL SITE FINAL VERSION
+
+מבנה:
+
+Header
+
+Home
+
+Product
+
+Solutions
+
+Pricing
+
+Integrations
+
+About
+
+Blog
+
+Contact
+
+Privacy
+
+Terms
+
+Global CTA
+
+1️⃣ HEADER
+
+Home
+Platform
+Solutions
+Pricing
+Integrations
+Blog
+About
+Contact
+
+Primary Button: Book a Demo
+Secondary: Login
+
+2️⃣ HOME – COMPLETE REBUILD
+HERO
+We Build Revenue Engines. Not Just Software.
+
+MAYBEL is a fully managed all-in-one CRM and automation platform built for growth-focused businesses in UAE & MENA.
+
+We design, structure, automate, and optimize your entire sales system.
+
+Button: Book a Demo
+Button: See Plans
+
+SECTION: WHAT IS MAYBEL
+
+MAYBEL is a structured growth infrastructure.
+
+It centralizes:
+
+• Leads
+• Sales
+• Messaging
+• Booking
+• Payments
+• Reporting
+
+Into one intelligent system that runs 24/7.
+
+We combine technology + implementation + automation.
+
+SECTION: WHAT WE ACTUALLY DO
+
+We build your system from scratch.
+
+✓ Sales pipeline architecture
+✓ CRM configuration
+✓ Automated follow-up sequences
+✓ WhatsApp & SMS systems
+✓ Funnel & landing page setup
+✓ Booking optimization
+✓ Payment automation
+✓ Review & retention flows
+✓ KPI dashboards
+
+This is not DIY software.
+This is Done-For-You Growth Infrastructure.
+
+SECTION: WHY BUSINESSES CHOOSE MAYBEL
+
+• Faster Speed-to-Lead
+• Structured Sales Process
+• Fully Automated Follow-Up
+• No More Lost Leads
+• Unified Messaging Inbox
+• Clear Revenue Tracking
+• Scalable Team Permissions
+
+FINAL CTA
+
+Ready to turn your operations into a growth engine?
+
+Book a Demo and let MAYBEL build it for you.
+
+3️⃣ PLATFORM (PRODUCT)
+Platform Overview
+
+MAYBEL connects every stage of your customer journey into one automated ecosystem.
+
+CRM & Pipeline
+
+• Unlimited contacts
+• Custom fields
+• Multiple pipelines
+• Drag & drop stages
+• Deal tracking
+• Activity timeline
+• Smart tags
+• Task automation
+• Lead scoring
+• Round-robin distribution
+• Auto stage movement
+• Source attribution
+
+Automation Engine
+
+• Trigger-based workflows
+• If/Else logic
+• Time delays
+• Conditional sequences
+• Appointment reminders
+• Missed call auto-reply
+• Reactivation campaigns
+• Upsell sequences
+• Renewal reminders
+• Internal team alerts
+• Webhooks
+• API actions
+
+Automation runs 24/7.
+
+Messaging System
+
+• WhatsApp integration
+• SMS two-way
+• Email campaigns
+• Unified inbox
+• Template library
+• Personalization tokens
+• Conversation assignment
+• Campaign tracking
+
+Funnels & Lead Capture
+
+• Landing page builder
+• Funnel builder
+• Forms
+• Surveys
+• Lead magnets
+• Custom domains
+• Pixel tracking
+• Mobile optimization
+
+Booking System
+
+• Online calendar
+• Google sync
+• Outlook sync
+• Round-robin booking
+• Confirmation flows
+• SMS reminders
+• Reschedule automation
+
+Payments
+
+• Stripe subscriptions
+• One-time payments
+• Payment links
+• Invoice automation
+• Failed payment reminders
+• Upgrade flows
+• Revenue sync to CRM
+
+Reputation & Retention
+
+• Automated review requests
+• Reputation pipeline
+• Feedback filtering
+• Reactivation flows
+• Referral campaigns
+
+Reporting & Analytics
+
+• Lead source reports
+• Funnel conversion rates
+• Pipeline value
+• Sales team KPIs
+• Revenue dashboards
+• Weekly summaries
+
+Implementation Included
+
+• Full system setup
+• Workflow architecture
+• Pipeline design
+• Funnel configuration
+• Template customization
+• Optimization sessions
+
+We build it for you.
+
+4️⃣ SOLUTIONS
+
+Built for:
+
+• Agencies
+• Service Businesses
+• Clinics
+• Real Estate
+• Education
+• Consultants
+• Multi-location businesses
+
+MAYBEL adapts to your structure — not the opposite.
+
+5️⃣ PRICING
+Launch – $97 / month
+
+Core CRM
+Basic automation (3 workflows)
+1 pipeline
+Booking system
+Email support
+
+Growth – $149 / month
+
+Everything in Launch
+Funnels
+Up to 10 automations
+WhatsApp & SMS sequences
+Basic dashboard
+
+Pro – $249 / month
+
+Everything in Growth
+Up to 25 automations
+Reputation system
+Reactivation campaigns
+Priority support
+
+Scale – $449 / month
+
+Everything in Pro
+Unlimited automations
+Advanced dashboards
+Advanced permissions
+Monthly optimization
+Dedicated support
+
+Annual discount available.
+
+6️⃣ INTEGRATIONS
+
+Meta Lead Forms
+Google Ads
+TikTok Leads
+LinkedIn Lead Gen
+WhatsApp API
+Twilio
+Stripe
+Google Calendar
+Outlook
+Zoom
+Zapier
+Make
+Webhooks
+Slack
+Google Sheets
+Shopify
+WooCommerce
+Google Tag Manager
+Meta Pixel
+
+API Ready Architecture.
+
+7️⃣ ABOUT
+
+MAYBEL was created for founders who want structure instead of chaos.
+
+In high-speed markets like UAE & MENA, businesses need systems — not disconnected tools.
+
+Our mission:
+
+Transform operations into automated revenue systems.
+
+We combine:
+
+Technology
+Automation Strategy
+Process Design
+Execution
+
+We don't sell tools.
+We build growth infrastructure.
+
+8️⃣ BLOG
+
+Insights on:
+
+Automation
+CRM Systems
+WhatsApp Marketing
+Funnels
+Speed-to-Lead
+Sales Optimization
+Agency Scaling
+
+9️⃣ CONTACT
+
+Full Name
+Company
+Email
+Phone
+Message
+
+Button: Send Message
+
+🔟 PRIVACY
+
+MAYBEL collects limited data for service delivery and optimization.
+Data may include contact details and usage metrics.
+
+We apply security measures and respect data rights.
+
+Contact: support@maybel.io
+
+1️⃣1️⃣ TERMS
+
+Use of MAYBEL requires compliance with applicable laws.
+Subscriptions are billed monthly or annually.
+Users are responsible for account security.
+MAYBEL reserves the right to modify services.
+
+🔥 GLOBAL CTA (Use on Every Page)
+
+Ready to build your automated growth infrastructure?
+
+Book a Demo and let MAYBEL structure your business.
