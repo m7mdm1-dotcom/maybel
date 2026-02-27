@@ -30,7 +30,6 @@ export default function Contact() {
     },
     onSuccess: () => {
       setStep("calendar");
-      window.open(CALENDAR_URL, "_blank");
     },
   });
 
@@ -94,26 +93,26 @@ export default function Contact() {
               {/* Right Column: Form / Calendar redirect */}
               <div className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 shadow-2xl relative z-10">
                 {step === "calendar" ? (
-                  <div className="flex flex-col items-center justify-center py-12 text-center space-y-6">
-                    <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center">
-                      <CheckCircle2 className="w-10 h-10 text-green-600" />
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                        <Calendar className="w-5 h-5 text-primary" /> Pick a time
+                      </h3>
+                      <button
+                        onClick={() => { setStep("form"); setFormData({ firstName: "", lastName: "", company: "", email: "", message: "" }); }}
+                        className="text-sm text-slate-500 hover:text-primary underline cursor-pointer"
+                        data-testid="button-start-over"
+                      >
+                        Back
+                      </button>
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900" data-testid="text-success-title">Details received!</h3>
-                    <p className="text-slate-600 max-w-sm">
-                      Your booking calendar should have opened in a new tab. If it didn't, click the button below to schedule your call.
-                    </p>
-                    <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer">
-                      <Button size="lg" className="bg-primary text-white hover:bg-violet-700 rounded-full px-8" data-testid="button-open-calendar">
-                        <Calendar className="mr-2 h-5 w-5" /> Open Booking Calendar
-                      </Button>
-                    </a>
-                    <button
-                      onClick={() => { setStep("form"); setFormData({ firstName: "", lastName: "", company: "", email: "", message: "" }); }}
-                      className="text-sm text-slate-500 hover:text-primary underline mt-2 cursor-pointer"
-                      data-testid="button-start-over"
-                    >
-                      Start over
-                    </button>
+                    <iframe
+                      src={CALENDAR_URL}
+                      className="w-full rounded-xl border-0"
+                      style={{ height: "700px" }}
+                      data-testid="calendar-iframe"
+                      title="Book a call"
+                    />
                   </div>
                 ) : (
                   <>
