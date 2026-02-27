@@ -82,6 +82,41 @@ export default function Platform() {
         </div>
       </section>
 
+      {/* Automation Deep Dive */}
+      <section className="py-24 relative bg-white border-t border-slate-100">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-6">
+              Automation
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Automate everything. Miss nothing.</h2>
+            <p className="text-lg text-slate-500">From first touch to closed deal — build workflows that run your business 24/7 without manual effort.</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: "Trigger-Based Workflows", desc: "Automatically launch sequences when a lead fills a form, books a call, misses an appointment, or reaches a pipeline stage." },
+              { title: "If/Else Conditional Logic", desc: "Branch workflows based on lead behavior, tags, custom fields, or engagement — ensuring each contact gets the right message." },
+              { title: "Time Delays & Drip Sequences", desc: "Schedule follow-ups with precise timing. Wait minutes, hours, or days between each step in your sequence." },
+              { title: "Missed Call Text-Back", desc: "Instantly send an automated SMS when a call is missed, keeping the lead engaged and opening a conversation." },
+              { title: "Lead Reactivation Campaigns", desc: "Automatically re-engage cold leads after a set period with personalized messages to bring them back into the pipeline." },
+              { title: "Auto Stage Movement", desc: "Move deals through your pipeline automatically based on actions taken — no manual drag and drop required." },
+              { title: "Internal Notifications & Alerts", desc: "Notify your sales team via SMS, email, or push when a hot lead takes action or a deal needs attention." },
+              { title: "Multi-Channel Sequences", desc: "Combine Email, SMS, WhatsApp, and voicemail drops into a single automated workflow for maximum reach." },
+              { title: "Webhook & API Actions", desc: "Connect to any external system. Trigger custom actions, sync data, or push events to third-party platforms in real time." }
+            ].map((item, i) => (
+              <div key={i} className="bg-slate-50 border border-slate-100 p-8 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+                  <Zap className="h-5 w-5 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold text-slate-900 mb-3">{item.title}</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Advanced Features */}
       <section className="py-24 relative bg-slate-50">
         <div className="container mx-auto px-4 md:px-8">
