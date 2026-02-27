@@ -1,0 +1,255 @@
+🔝 HEADER FINAL (להדבקה מלאה)
+EN
+
+Home
+Product
+Solutions
+Pricing
+Integrations
+Blog
+About
+Contact
+
+Primary Button: Book a Demo → /book-demo
+Secondary: Login → (לינק למערכת שלך)
+
+AR
+
+الرئيسية
+المنتج
+الحلول
+الأسعار
+التكاملات
+المدونة
+من نحن
+تواصل معنا
+
+زر أساسي: احجز عرضاً → /book-demo
+زر ثانوي: تسجيل الدخول
+
+🏠 HOME – FINAL VERSION (EN)
+HERO
+
+We Build Your Entire Growth System — Not Just Software
+
+MAYBEL is a managed all-in-one CRM, automation, messaging, funnel and booking platform built for UAE & MENA businesses.
+We build it for you, connect everything, and optimize it — so you focus on growth.
+
+Button: Book a Demo
+Button: View Pricing
+
+WHO WE ARE
+
+MAYBEL is a done-for-you growth platform designed for businesses that need structure, automation, and clarity.
+We combine software + implementation + automation expertise to create a working sales engine from day one.
+
+We don’t just give you tools.
+We build your entire system.
+
+WHAT WE BUILD FOR YOU
+
+• CRM & Sales Pipeline Setup
+• Smart Lead Routing
+• WhatsApp / SMS / Email Follow-Up
+• Funnels & Landing Pages
+• Booking & Calendar Automation
+• Review & Reputation System
+• Reactivation Campaigns
+• KPI Dashboards & Reporting
+
+SPECIAL FEATURES
+
+• Missed Call Text-Back
+• Speed-to-Lead Automation
+• Multi-Language Ready (Arabic + English)
+• Unlimited Custom Fields
+• Role-Based Permissions
+• Advanced Workflow Logic
+• Revenue Tracking
+
+FINAL CTA
+
+Ready to build a structured growth machine?
+Book a demo and we’ll design your system.
+
+Button: Book a Demo
+
+📦 PRODUCT – FINAL
+
+Everything you need to run sales and marketing from one system.
+
+CRM
+
+Unlimited contacts
+Custom pipelines
+Lead scoring
+Tasks & activities
+Auto stage movement
+
+Messaging
+
+WhatsApp integration
+SMS two-way
+Email campaigns
+Unified inbox
+
+Automation
+
+Trigger workflows
+If/Else logic
+Delay & time control
+Notifications
+Webhooks
+
+Funnels & Pages
+
+Landing pages
+Forms
+Custom domains
+Tracking pixels
+
+Booking
+
+Calendar sync
+Round-robin
+Reminders
+No-show flows
+
+Payments
+
+Stripe products
+Subscriptions
+Invoices
+Renewal reminders
+
+Reporting
+
+Lead source tracking
+Sales dashboards
+Conversion analytics
+
+💰 PRICING – FINAL
+Launch – $97 / month
+
+CRM
+Basic automations (3)
+Booking calendar
+Email support
+
+Growth – $149 / month
+
+Everything in Launch
+Funnels
+Up to 10 automations
+WhatsApp/SMS sequences
+
+Pro – $249 / month
+
+Everything in Growth
+25 automations
+Reputation system
+Reactivation flows
+Priority support
+
+Scale – $449 / month
+
+Everything in Pro
+Unlimited automations
+Advanced dashboards
+Roles & permissions
+Monthly optimization support
+
+CTA: Start Now / Talk to Sales
+
+🔗 INTEGRATIONS – FINAL
+
+Meta Lead Forms
+Google Ads Tracking
+WhatsApp API
+Twilio SMS
+Stripe
+Google Calendar
+Outlook
+Zoom
+Zapier
+Make
+Webhooks
+Slack
+Google Sheets
+Shopify (via connector)
+WooCommerce
+Google Tag Manager
+Meta Pixel
+
+Bottom line: API Ready.
+
+🏢 ABOUT – FINAL VERSION
+
+MAYBEL was created for business owners who are tired of using disconnected tools.
+
+We believe growth should be structured, automated, and measurable.
+
+Our mission is simple:
+Turn chaos into systems.
+
+We help businesses across UAE & MENA centralize their sales, messaging, and automation in one optimized platform.
+
+We combine:
+Technology
+Process design
+Automation strategy
+Continuous improvement
+
+📝 BLOG PAGE
+
+Title: MAYBEL Blog
+Subtitle: Systems, Automation & Growth Insights
+
+Example Articles:
+Speed-to-Lead in MENA
+How to Build the Perfect Sales Pipeline
+WhatsApp Automation That Converts
+Reducing No-Shows with Smart Reminders
+Reactivating Old Leads for New Revenue
+
+📞 CONTACT
+
+Full Name
+Company
+Email
+Phone
+Message
+
+Button: Send Message
+
+🔐 PRIVACY POLICY (Short Final Version)
+
+MAYBEL collects limited personal data such as name, email, phone, and usage data when interacting with our services.
+
+We use this data to:
+Provide services
+Process payments
+Improve system performance
+Communicate updates
+
+We apply reasonable security measures to protect data.
+
+Users may request access or deletion of data.
+
+Contact: support@maybel.io
+
+📜 TERMS (Short Final Version)
+
+By using MAYBEL you agree to:
+
+Use services legally
+Maintain account security
+Pay subscription fees as agreed
+Avoid misuse of platform
+
+MAYBEL reserves the right to update services and suspend accounts in cases of violation.
+
+📈 SEO FINAL (Home example)
+
+Title: MAYBEL | All-in-One CRM & Automation for UAE
+Meta: Managed CRM, automation, WhatsApp messaging, funnels and growth systems for UAE & MENA businesses.
