@@ -57,36 +57,57 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="bg-slate-900 p-6 md:p-8 rounded-3xl shadow-2xl relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <Calendar className="w-6 h-6 text-violet-400" />
-                  <h3 className="text-2xl font-bold text-white">{t("contact.calendar.heading")}</h3>
-                </div>
-                <p className="text-slate-400 text-sm mb-5">{t("contact.calendar.subtitle")}</p>
+              <div
+                className="relative z-10 rounded-3xl shadow-2xl overflow-hidden"
+                style={{
+                  background: "linear-gradient(145deg, rgba(15,23,42,0.97), rgba(30,27,75,0.95))",
+                  backdropFilter: "blur(20px)",
+                }}
+              >
+                <div className="p-8 md:p-10 pb-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 rounded-xl bg-violet-500/20 flex items-center justify-center">
+                      <Calendar className="w-5 h-5 text-violet-400" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">{t("contact.calendar.heading")}</h3>
+                  </div>
+                  <p className="text-slate-400 text-sm mb-6 leading-relaxed">{t("contact.calendar.subtitle")}</p>
 
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
-                    <span className="text-slate-300 text-sm">{t("contact.calendar.bullet1")}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
-                    <span className="text-slate-300 text-sm">{t("contact.calendar.bullet2")}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
-                    <span className="text-slate-300 text-sm">{t("contact.calendar.bullet3")}</span>
+                  <div className="space-y-3 mb-2">
+                    <div className="flex items-center gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
+                      <span className="text-slate-300 text-sm">{t("contact.calendar.bullet1")}</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
+                      <span className="text-slate-300 text-sm">{t("contact.calendar.bullet2")}</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-violet-400 flex-shrink-0" />
+                      <span className="text-slate-300 text-sm">{t("contact.calendar.bullet3")}</span>
+                    </div>
                   </div>
                 </div>
 
-                <iframe
-                  src={CALENDAR_URL}
-                  className="w-full rounded-xl border-0"
-                  style={{ height: "600px" }}
-                  scrolling="no"
-                  data-testid="calendar-iframe"
-                  title="Book a call"
-                />
+                <div className="px-8 md:px-10 pb-8 md:pb-10 pt-4">
+                  <div
+                    className="rounded-2xl overflow-hidden"
+                    style={{
+                      border: "1px solid rgba(139,92,246,0.25)",
+                      background: "rgba(15,23,42,0.6)",
+                      padding: "10px",
+                    }}
+                  >
+                    <iframe
+                      src={CALENDAR_URL}
+                      className="w-full rounded-xl border-0"
+                      style={{ height: "600px", colorScheme: "normal" }}
+                      scrolling="no"
+                      data-testid="calendar-iframe"
+                      title="Book a call"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
 
