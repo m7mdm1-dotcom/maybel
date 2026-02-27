@@ -42,9 +42,11 @@ export function Navbar() {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <Button variant="ghost" className="text-slate-600 hover:text-primary">
-            Login
-          </Button>
+          <a href="https://app.maybel.io" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" className="text-slate-600 hover:text-primary">
+              Login
+            </Button>
+          </a>
           <Link href="/contact">
             <Button className="bg-primary text-white hover:bg-violet-700 shadow-md">
               Book a Demo
@@ -80,7 +82,9 @@ export function Navbar() {
                 <Link href="/contact">
                   <Button className="w-full bg-primary text-white">Book a Demo</Button>
                 </Link>
-                <Button variant="outline" className="w-full">Login</Button>
+                <a href="https://app.maybel.io" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="w-full">Login</Button>
+                </a>
               </div>
             </SheetContent>
           </Sheet>
