@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "Platform & Automation", href: "/platform" },
+  { name: "Platform", href: "/platform" },
   { name: "Solutions", href: "/solutions" },
   { name: "Pricing", href: "/pricing" },
   { name: "Integrations", href: "/integrations" },
