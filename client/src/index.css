@@ -33,33 +33,34 @@
 }
 
 :root {
-  --background: 210 20% 98%;
-  --foreground: 222 47% 11%;
+  /* DARK MODE DEFAULT */
+  --background: 222 47% 7%; 
+  --foreground: 210 40% 98%;
   
-  --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
+  --card: 222 47% 9%;
+  --card-foreground: 210 40% 98%;
   
-  --popover: 0 0% 100%;
-  --popover-foreground: 222 47% 11%;
+  --popover: 222 47% 9%;
+  --popover-foreground: 210 40% 98%;
   
-  --primary: 230 70% 45%;
-  --primary-foreground: 210 40% 98%;
+  --primary: 217 91% 60%; /* Bright Blue */
+  --primary-foreground: 0 0% 100%;
   
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 217 32% 17%;
+  --secondary-foreground: 210 40% 98%;
   
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
+  --muted: 217 32% 17%;
+  --muted-foreground: 215 20.2% 65.1%;
   
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
+  --accent: 217 32% 17%;
+  --accent-foreground: 210 40% 98%;
   
-  --destructive: 0 84.2% 60.2%;
+  --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 230 70% 45%;
+  --border: 217 32% 17%;
+  --input: 217 32% 17%;
+  --ring: 224 76% 48%;
 
   --radius: 0.75rem;
 }
@@ -73,16 +74,23 @@
   }
 }
 
-/* Custom styling for sleek interactions */
+/* Custom dark mode utilities */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.glass-card {
+  background: linear-gradient(145deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #1e3a8a, #4f46e5);
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
