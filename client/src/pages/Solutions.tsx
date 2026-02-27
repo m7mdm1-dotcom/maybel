@@ -16,7 +16,7 @@ export default function Solutions() {
           <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
             Tailored For Your Industry
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
+          <h1 className="text-4xl md:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
             Solutions built for <br />
             <span className="text-gradient drop-shadow-sm">rapid growth.</span>
           </h1>
@@ -25,7 +25,7 @@ export default function Solutions() {
           </p>
         </div>
         
-        <div className="flex-1 relative w-full aspect-square md:aspect-auto md:h-[500px] animate-in fade-in zoom-in duration-1000 delay-300">
+        <div className="flex-1 relative w-full aspect-video md:aspect-auto md:h-[500px] animate-in fade-in zoom-in duration-1000 delay-300">
           <div className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent rounded-full blur-3xl z-0" />
           <div className="relative z-10 w-full h-full rounded-2xl overflow-hidden border border-slate-200/50 shadow-2xl bg-white">
             <img 

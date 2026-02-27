@@ -15,7 +15,7 @@ export default function About() {
           <span className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary ring-1 ring-inset ring-primary/20 mb-8">
             About Us
           </span>
-          <h1 className="text-5xl sm:text-6xl md:text-[4.5rem] font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-8">
+          <h1 className="text-3xl sm:text-5xl md:text-[4.5rem] font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-8">
             Building the infrastructure for{" "}
             <span className="text-gradient">modern business growth</span>.
           </h1>

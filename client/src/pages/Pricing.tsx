@@ -10,19 +10,19 @@ export default function Pricing() {
       <section className="py-24 relative bg-slate-50">
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4">Pricing</h1>
+            <h1 className="text-3xl md:text-6xl font-bold text-slate-900 mb-4">Pricing</h1>
             <p className="text-xl text-slate-600 mb-2">Annual discount available.</p>
             <p className="text-primary font-semibold">All plans include a 14-day free trial. No credit card required.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {[
               { name: "Launch", price: "97", features: ["Core CRM", "Basic automation (3 workflows)", "1 pipeline", "Booking system", "Email support"] },
               { name: "Growth", price: "149", popular: true, features: ["Everything in Launch", "Funnels", "Up to 10 automations", "WhatsApp & SMS sequences", "Basic dashboard"] },
               { name: "Pro", price: "249", features: ["Everything in Growth", "Up to 25 automations", "Reputation system", "Reactivation campaigns", "Priority support"] },
               { name: "Scale", price: "449", features: ["Everything in Pro", "Unlimited automations", "Advanced dashboards", "Advanced permissions", "Monthly optimization", "Dedicated support"] }
             ].map((plan) => (
-              <div key={plan.name} className={`relative p-8 rounded-2xl flex flex-col bg-white ${plan.popular ? 'border-2 border-primary shadow-xl transform md:-translate-y-2' : 'border border-slate-200 shadow-sm'}`}>
+              <div key={plan.name} className={`relative p-6 md:p-8 rounded-2xl flex flex-col bg-white ${plan.popular ? 'border-2 border-primary shadow-xl transform lg:-translate-y-2' : 'border border-slate-200 shadow-sm'}`}>
                 {plan.popular && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-white px-4 py-1 rounded-full text-xs font-bold tracking-wide uppercase shadow-lg">Most Popular</div>}
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{plan.name}</h3>
                 <div className="mb-6 flex items-baseline gap-1">

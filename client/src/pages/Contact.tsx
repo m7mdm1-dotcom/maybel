@@ -50,7 +50,7 @@ export default function Contact() {
               {/* Left Column: Info */}
               <div className="space-y-12">
                 <div>
-                  <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">Let's build your growth engine.</h1>
+                  <h1 className="text-3xl md:text-6xl font-bold text-slate-900 mb-6">Let's build your growth engine.</h1>
                   <p className="text-xl text-slate-600 leading-relaxed">
                     Whether you need a complete CRM overhaul or automated WhatsApp workflows, our team is ready to design a system tailored to your exact needs.
                   </p>
@@ -91,7 +91,7 @@ export default function Contact() {
               </div>
 
               {/* Right Column: Form / Calendar redirect */}
-              <div className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 shadow-2xl relative z-10">
+              <div className="bg-white p-6 md:p-10 rounded-3xl border border-slate-200 shadow-2xl relative z-10">
                 {step === "calendar" ? (
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
@@ -109,7 +109,7 @@ export default function Contact() {
                     <iframe
                       src={CALENDAR_URL}
                       className="w-full rounded-xl border-0"
-                      style={{ height: "700px" }}
+                      style={{ minHeight: "500px", height: "70vh" }}
                       data-testid="calendar-iframe"
                       title="Book a call"
                     />

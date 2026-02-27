@@ -21,7 +21,7 @@ export default function Home() {
             Done-For-You Growth Systems
           </div>
 
-          <h1 className="text-5xl sm:text-6xl md:text-[5rem] font-extrabold tracking-tight text-slate-900 leading-[1.05] mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
+          <h1 className="text-4xl sm:text-5xl md:text-[5rem] font-extrabold tracking-tight text-slate-900 leading-[1.05] mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
             We Build{" "}
             <span className="text-gradient">Revenue Engines</span>.
             <br />
@@ -45,7 +45,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-12 flex items-center justify-center gap-8 text-sm text-slate-400 animate-in fade-in duration-700 delay-700">
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-sm text-slate-400 animate-in fade-in duration-700 delay-700">
             <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> 14-day free trial</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> No setup fees</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-green-500" /> Cancel anytime</span>
@@ -101,16 +101,16 @@ export default function Home() {
               { step: "03", title: "Automate", desc: "We build custom workflows for follow-ups, messaging, and internal alerts so nothing falls through the cracks.", side: "left" },
               { step: "04", title: "Launch & Train", desc: "We hand over a fully functioning system and train your team to use it effectively from day one.", side: "right" }
             ].map((item, i) => (
-              <div key={i} className={`relative flex flex-col md:flex-row items-center gap-8 mb-16 last:mb-0 ${item.side === "right" ? "md:flex-row-reverse" : ""}`}>
-                <div className={`flex-1 ${item.side === "right" ? "md:text-left" : "md:text-right"}`}>
-                  <div className={`bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg transition-shadow inline-block max-w-md ${item.side === "right" ? "" : "md:ml-auto"}`}>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                    <p className="text-slate-500 leading-relaxed">{item.desc}</p>
-                  </div>
+              <div key={i} className={`relative flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-12 md:mb-16 last:mb-0 ${item.side === "right" ? "md:flex-row-reverse" : ""}`}>
+                <div className="relative z-10 w-12 h-12 md:w-14 md:h-14 rounded-full bg-primary text-white font-extrabold text-base md:text-lg flex items-center justify-center shadow-lg shadow-primary/30 shrink-0 order-first md:order-none">
+                  {item.step}
                 </div>
 
-                <div className="relative z-10 w-14 h-14 rounded-full bg-primary text-white font-extrabold text-lg flex items-center justify-center shadow-lg shadow-primary/30 shrink-0">
-                  {item.step}
+                <div className={`flex-1 w-full ${item.side === "right" ? "md:text-left" : "md:text-right"}`}>
+                  <div className={`bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg transition-shadow w-full md:inline-block md:max-w-md ${item.side === "right" ? "" : "md:ml-auto"}`}>
+                    <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+                    <p className="text-slate-500 leading-relaxed text-sm md:text-base">{item.desc}</p>
+                  </div>
                 </div>
 
                 <div className="flex-1 hidden md:block" />
