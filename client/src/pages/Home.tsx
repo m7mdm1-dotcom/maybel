@@ -16,7 +16,7 @@ export default function Home() {
       <section className="relative container mx-auto px-4 md:px-8 pt-16 pb-24 md:pt-32 md:pb-32 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-8 z-10">
           <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-blue-50 text-blue-700 ring-1 ring-inset ring-blue-700/10 mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            For UAE & MENA Businesses
+            For Businesses
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
             We Build <br />
@@ -24,7 +24,7 @@ export default function Home() {
             <br /> Not Just Software.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-2xl leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-            MAYBEL is a fully managed all-in-one CRM and automation platform built for growth-focused businesses in UAE & MENA. We design, structure, automate, and optimize your entire sales system.
+            MAYBEL is a fully managed all-in-one CRM and automation platform built for growth-focused businesses. We design, structure, automate, and optimize your entire sales system.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-500">
             <Link href="/contact">

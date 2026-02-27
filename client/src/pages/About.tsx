@@ -13,7 +13,7 @@ export default function About() {
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>MAYBEL was created for founders who want structure instead of chaos.</p>
               
-              <p>In high-speed markets like UAE & MENA, businesses need systems — not disconnected tools.</p>
+              <p>In high-speed markets, businesses need systems — not disconnected tools.</p>
               
               <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 my-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Our mission:</h3>

@@ -16,7 +16,7 @@ export function Footer() {
                 MAYBEL was created for founders who want structure instead of chaos.
               </p>
               <p className="max-w-xs text-sm leading-relaxed text-slate-400">
-                In high-speed markets like UAE & MENA, businesses need systems — not disconnected tools.
+                In high-speed markets, businesses need systems — not disconnected tools.
               </p>
             </div>
             <p className="text-blue-400 font-medium text-sm">
