@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { GlobalCTA } from "@/components/GlobalCTA";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Clock, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Mail, MapPin, Clock, ArrowRight, CheckCircle2, Calendar } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
+
+const CALENDAR_URL = "https://link.maybel.io/widget/booking/XNja6c2FvuiCvHyQa4KQ";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -12,7 +13,7 @@ export default function Contact() {
     email: "",
     message: "",
   });
-  const [submitted, setSubmitted] = useState(false);
+  const [step, setStep] = useState<"form" | "calendar">("form");
 
   const mutation = useMutation({
     mutationFn: async (data: typeof formData) => {
@@ -28,8 +29,8 @@ export default function Contact() {
       return res.json();
     },
     onSuccess: () => {
-      setSubmitted(true);
-      setFormData({ firstName: "", lastName: "", company: "", email: "", message: "" });
+      setStep("calendar");
+      window.open(CALENDAR_URL, "_blank");
     },
   });
 
@@ -90,20 +91,34 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Right Column: Form */}
+              {/* Right Column: Form / Calendar redirect */}
               <div className="bg-white p-8 md:p-10 rounded-3xl border border-slate-200 shadow-2xl relative z-10">
-                {submitted ? (
-                  <div className="flex flex-col items-center justify-center py-16 text-center space-y-6">
+                {step === "calendar" ? (
+                  <div className="flex flex-col items-center justify-center py-12 text-center space-y-6">
                     <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center">
                       <CheckCircle2 className="w-10 h-10 text-green-600" />
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900" data-testid="text-success-title">Message sent!</h3>
-                    <p className="text-slate-600 max-w-sm">Thank you for reaching out. We'll get back to you within 24 hours.</p>
-                    <Button variant="outline" onClick={() => setSubmitted(false)} data-testid="button-send-another">Send another message</Button>
+                    <h3 className="text-2xl font-bold text-slate-900" data-testid="text-success-title">Details received!</h3>
+                    <p className="text-slate-600 max-w-sm">
+                      Your booking calendar should have opened in a new tab. If it didn't, click the button below to schedule your call.
+                    </p>
+                    <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer">
+                      <Button size="lg" className="bg-primary text-white hover:bg-violet-700 rounded-full px-8" data-testid="button-open-calendar">
+                        <Calendar className="mr-2 h-5 w-5" /> Open Booking Calendar
+                      </Button>
+                    </a>
+                    <button
+                      onClick={() => { setStep("form"); setFormData({ firstName: "", lastName: "", company: "", email: "", message: "" }); }}
+                      className="text-sm text-slate-500 hover:text-primary underline mt-2 cursor-pointer"
+                      data-testid="button-start-over"
+                    >
+                      Start over
+                    </button>
                   </div>
                 ) : (
                   <>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-8">Book your discovery call</h3>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Book your discovery call</h3>
+                    <p className="text-slate-500 text-sm mb-8">Fill in your details below and you'll be redirected to pick a time that works for you.</p>
                     
                     <form className="space-y-6" onSubmit={handleSubmit}>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -158,18 +173,6 @@ export default function Contact() {
                           placeholder="john@company.com"
                         />
                       </div>
-                      
-                      <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">How can we help?</label>
-                        <textarea
-                          data-testid="input-message"
-                          required
-                          value={formData.message}
-                          onChange={e => setFormData(p => ({ ...p, message: e.target.value }))}
-                          className="w-full h-32 p-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none bg-slate-50 focus:bg-white"
-                          placeholder="Tell us about your current challenges..."
-                        ></textarea>
-                      </div>
 
                       {mutation.isError && (
                         <p className="text-red-600 text-sm" data-testid="text-error">{mutation.error.message}</p>
@@ -182,7 +185,7 @@ export default function Contact() {
                         disabled={mutation.isPending}
                         className="w-full h-14 text-base bg-primary text-white hover:bg-violet-700 shadow-lg shadow-primary/30 rounded-xl group disabled:opacity-60"
                       >
-                        {mutation.isPending ? "Sending..." : "Send Message"} <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        {mutation.isPending ? "Submitting..." : "Continue to Schedule"} <Calendar className="ml-2 w-5 h-5" />
                       </Button>
                       
                       <p className="text-xs text-slate-500 text-center mt-4">
