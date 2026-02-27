@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <div className="pt-20 pb-0 bg-background overflow-hidden relative">
 
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-violet-50/80 via-white to-white pointer-events-none" />
         <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] bg-violet-200/30 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-[-100px] left-[-150px] w-[400px] h-[400px] bg-purple-200/20 rounded-full blur-[80px] pointer-events-none" />
