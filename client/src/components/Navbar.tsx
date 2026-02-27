@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
@@ -16,6 +17,7 @@ const navLinks = [
 
 export function Navbar() {
   const [location] = useLocation();
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-white/20">
@@ -61,7 +63,7 @@ export function Navbar() {
 
         {/* Mobile Nav */}
         <div className="lg:hidden flex items-center">
-          <Sheet>
+          <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6 text-slate-800" />
@@ -70,7 +72,7 @@ export function Navbar() {
             <SheetContent className="bg-white">
               <div className="flex flex-col gap-6 mt-12 overflow-y-auto">
                 {navLinks.map((link) => (
-                  <Link key={link.name} href={link.href}>
+                  <Link key={link.name} href={link.href} onClick={() => setMobileOpen(false)}>
                     <span className={`text-lg font-medium cursor-pointer ${
                       location === link.href ? 'text-primary' : 'text-slate-800'
                     }`}>
@@ -79,7 +81,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <div className="h-px bg-slate-100 my-2" />
-                <Link href="/contact">
+                <Link href="/contact" onClick={() => setMobileOpen(false)}>
                   <Button className="w-full bg-primary text-white">Book a Demo</Button>
                 </Link>
                 <a href="https://app.maybel.io" target="_blank" rel="noopener noreferrer">
