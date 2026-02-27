@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Clock, ArrowRight, CheckCircle2, Calendar } from "lucide-react";
+import { Mail, MapPin, Clock, Calendar } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
+import { useI18n } from "@/lib/i18n";
 
 const CALENDAR_URL = "https://link.maybel.io/widget/booking/XNja6c2FvuiCvHyQa4KQ";
 
 export default function Contact() {
+  const { t } = useI18n();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -47,12 +49,11 @@ export default function Contact() {
           <div className="max-w-6xl mx-auto">
             
             <div className="grid lg:grid-cols-2 gap-16 items-start">
-              {/* Left Column: Info */}
               <div className="space-y-12">
                 <div>
-                  <h1 className="text-3xl md:text-6xl font-bold text-slate-900 mb-6">Let's build your growth engine.</h1>
+                  <h1 className="text-3xl md:text-6xl font-bold text-slate-900 mb-6">{t("contact.title")}</h1>
                   <p className="text-xl text-slate-600 leading-relaxed">
-                    Whether you need a complete CRM overhaul or automated WhatsApp workflows, our team is ready to design a system tailored to your exact needs.
+                    {t("contact.desc")}
                   </p>
                 </div>
 
@@ -62,8 +63,8 @@ export default function Contact() {
                       <Mail className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-slate-900 mb-1">Email Us</h3>
-                      <p className="text-slate-600 mb-2">Our friendly team is here to help.</p>
+                      <h3 className="text-lg font-bold text-slate-900 mb-1">{t("contact.email.title")}</h3>
+                      <p className="text-slate-600 mb-2">{t("contact.email.desc")}</p>
                       <a href="mailto:info@maybel.io" className="text-primary font-medium hover:underline">info@maybel.io</a>
                     </div>
                   </div>
@@ -73,8 +74,8 @@ export default function Contact() {
                       <MapPin className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-slate-900 mb-1">Global Presence</h3>
-                      <p className="text-slate-600">Supporting businesses remotely and efficiently, with a strong focus on high-speed markets.</p>
+                      <h3 className="text-lg font-bold text-slate-900 mb-1">{t("contact.global.title")}</h3>
+                      <p className="text-slate-600">{t("contact.global.desc")}</p>
                     </div>
                   </div>
 
@@ -83,27 +84,26 @@ export default function Contact() {
                       <Clock className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-slate-900 mb-1">Fast Response</h3>
-                      <p className="text-slate-600">We practice what we preach. Expect a speedy reply to your inquiry.</p>
+                      <h3 className="text-lg font-bold text-slate-900 mb-1">{t("contact.fast.title")}</h3>
+                      <p className="text-slate-600">{t("contact.fast.desc")}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Right Column: Form / Calendar redirect */}
               <div className="bg-white p-6 md:p-10 rounded-3xl border border-slate-200 shadow-2xl relative z-10">
                 {step === "calendar" ? (
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                        <Calendar className="w-5 h-5 text-primary" /> Pick a time
+                        <Calendar className="w-5 h-5 text-primary" /> {t("contact.calendar.title")}
                       </h3>
                       <button
                         onClick={() => { setStep("form"); setFormData({ firstName: "", lastName: "", company: "", email: "", message: "" }); }}
                         className="text-sm text-slate-500 hover:text-primary underline cursor-pointer"
                         data-testid="button-start-over"
                       >
-                        Back
+                        {t("contact.calendar.back")}
                       </button>
                     </div>
                     <iframe
@@ -116,13 +116,13 @@ export default function Contact() {
                   </div>
                 ) : (
                   <>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Book your discovery call</h3>
-                    <p className="text-slate-500 text-sm mb-8">Fill in your details below and you'll be redirected to pick a time that works for you.</p>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">{t("contact.form.title")}</h3>
+                    <p className="text-slate-500 text-sm mb-8">{t("contact.form.desc")}</p>
                     
                     <form className="space-y-6" onSubmit={handleSubmit}>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-2">
-                          <label className="text-sm font-semibold text-slate-700">First Name</label>
+                          <label className="text-sm font-semibold text-slate-700">{t("contact.form.firstName")}</label>
                           <input
                             data-testid="input-first-name"
                             type="text"
@@ -130,11 +130,10 @@ export default function Contact() {
                             value={formData.firstName}
                             onChange={e => setFormData(p => ({ ...p, firstName: e.target.value }))}
                             className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
-                            placeholder="John"
                           />
                         </div>
                         <div className="space-y-2">
-                          <label className="text-sm font-semibold text-slate-700">Last Name</label>
+                          <label className="text-sm font-semibold text-slate-700">{t("contact.form.lastName")}</label>
                           <input
                             data-testid="input-last-name"
                             type="text"
@@ -142,13 +141,12 @@ export default function Contact() {
                             value={formData.lastName}
                             onChange={e => setFormData(p => ({ ...p, lastName: e.target.value }))}
                             className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
-                            placeholder="Doe"
                           />
                         </div>
                       </div>
                       
                       <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">Company Name</label>
+                        <label className="text-sm font-semibold text-slate-700">{t("contact.form.company")}</label>
                         <input
                           data-testid="input-company"
                           type="text"
@@ -156,12 +154,11 @@ export default function Contact() {
                           value={formData.company}
                           onChange={e => setFormData(p => ({ ...p, company: e.target.value }))}
                           className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
-                          placeholder="Your Company LLC"
                         />
                       </div>
                       
                       <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">Work Email</label>
+                        <label className="text-sm font-semibold text-slate-700">{t("contact.form.email")}</label>
                         <input
                           data-testid="input-email"
                           type="email"
@@ -169,7 +166,6 @@ export default function Contact() {
                           value={formData.email}
                           onChange={e => setFormData(p => ({ ...p, email: e.target.value }))}
                           className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
-                          placeholder="john@company.com"
                         />
                       </div>
 
@@ -184,11 +180,11 @@ export default function Contact() {
                         disabled={mutation.isPending}
                         className="w-full h-14 text-base bg-primary text-white hover:bg-violet-700 shadow-lg shadow-primary/30 rounded-xl group disabled:opacity-60"
                       >
-                        {mutation.isPending ? "Submitting..." : "Continue to Schedule"} <Calendar className="ml-2 w-5 h-5" />
+                        {mutation.isPending ? t("contact.form.submitting") : t("contact.form.submit")} <Calendar className="ms-2 w-5 h-5" />
                       </Button>
                       
                       <p className="text-xs text-slate-500 text-center mt-4">
-                        By submitting this form, you agree to our privacy policy and terms of service.
+                        {t("contact.form.legal")}
                       </p>
                     </form>
                   </>

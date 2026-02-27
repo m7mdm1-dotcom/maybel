@@ -1,6 +1,9 @@
 import { Link } from "wouter";
+import { useI18n } from "@/lib/i18n";
 
 export function Footer() {
+  const { t } = useI18n();
+
   return (
     <footer className="bg-slate-950 text-slate-400 py-16 border-t border-slate-900 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 relative z-10">
@@ -13,37 +16,37 @@ export function Footer() {
             </Link>
             <div className="space-y-2">
               <p className="max-w-xs text-sm leading-relaxed text-slate-400">
-                MAYBEL was created for founders who want structure instead of chaos.
+                {t("footer.tagline1")}
               </p>
               <p className="max-w-xs text-sm leading-relaxed text-slate-400">
-                In high-speed markets, businesses need systems — not disconnected tools.
+                {t("footer.tagline2")}
               </p>
             </div>
             <p className="text-violet-400 font-medium text-sm">
-              We don't sell tools. We build growth infrastructure.
+              {t("footer.tagline3")}
             </p>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-6">Company</h4>
+            <h4 className="text-white font-semibold mb-6">{t("footer.company")}</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/about"><span className="hover:text-violet-400 transition-colors cursor-pointer">About Us</span></Link></li>
-              <li><Link href="/platform"><span className="hover:text-violet-400 transition-colors cursor-pointer">Platform</span></Link></li>
-              <li><Link href="/pricing"><span className="hover:text-violet-400 transition-colors cursor-pointer">Pricing</span></Link></li>
-              <li><Link href="/blog"><span className="hover:text-violet-400 transition-colors cursor-pointer">Blog</span></Link></li>
+              <li><Link href="/about"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.aboutUs")}</span></Link></li>
+              <li><Link href="/platform"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.platform")}</span></Link></li>
+              <li><Link href="/pricing"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.pricing")}</span></Link></li>
+              <li><Link href="/blog"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.blog")}</span></Link></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-6">Legal</h4>
+            <h4 className="text-white font-semibold mb-6">{t("footer.legal")}</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/privacy"><span className="hover:text-violet-400 transition-colors cursor-pointer">Privacy Policy</span></Link></li>
-              <li><Link href="/terms"><span className="hover:text-violet-400 transition-colors cursor-pointer">Terms of Service</span></Link></li>
-              <li><Link href="/contact"><span className="hover:text-violet-400 transition-colors cursor-pointer">Contact</span></Link></li>
+              <li><Link href="/privacy"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.privacy")}</span></Link></li>
+              <li><Link href="/terms"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.terms")}</span></Link></li>
+              <li><Link href="/contact"><span className="hover:text-violet-400 transition-colors cursor-pointer">{t("footer.contact")}</span></Link></li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-slate-800 text-sm flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-slate-500">© {new Date().getFullYear()} MAYBEL. All rights reserved.</p>
+          <p className="text-slate-500">© {new Date().getFullYear()} {t("footer.rights")}</p>
           <div className="flex items-center gap-5">
             <a href="https://www.facebook.com/Maybel.io.ae/" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-white transition-colors" aria-label="Facebook">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>

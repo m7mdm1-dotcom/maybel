@@ -85,3 +85,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+[dir="rtl"] {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Tahoma, sans-serif;
+}
+
+[dir="rtl"] .glass-panel {
+  direction: rtl;
+}
