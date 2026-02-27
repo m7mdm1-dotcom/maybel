@@ -1,0 +1,494 @@
+1) HOME (EN) – Full Page Copy
+Hero
+
+Headline: The All-in-One Growth Platform for Modern Businesses
+Subheadline: MAYBEL brings your CRM, marketing automation, messaging, funnels, bookings, and analytics into one simple system — built to scale across UAE & MENA.
+Primary CTA: Book a Demo
+Secondary CTA: See Pricing
+Micro trust line: Setup in days • Arabic + English • Built for teams
+
+Social Proof (placeholders)
+
+Trusted by teams in: UAE • KSA • Qatar • MENA
+Results: More leads • Faster follow-ups • Higher conversions
+
+Problem → Solution
+
+Title: Your tools are disconnected. Your growth shouldn’t be.
+Bullets:
+
+Leads get lost between ads, WhatsApp, and email
+
+Teams don’t follow the same process
+
+No clear visibility on pipeline and results
+
+Manual work consumes your day
+
+Solution Title: MAYBEL unifies everything — with automation that works for you.
+Bullets:
+
+Capture leads from every channel
+
+Automate follow-ups and reminders
+
+Track pipeline and performance
+
+Deliver consistent customer experience
+
+Key Benefits (3 blocks)
+
+1) Close deals faster
+Automated follow-up sequences so no lead is forgotten.
+
+2) Save hours weekly
+Workflows handle repetitive tasks while your team focuses on sales.
+
+3) Grow with clarity
+Dashboards and reporting to track what’s working.
+
+Feature Highlights (6)
+
+CRM & Pipelines
+
+WhatsApp/SMS/Email Messaging
+
+Funnels & Landing Pages
+
+Booking & Calendar
+
+Automations & Workflows
+
+Analytics & ROI Tracking
+
+How it Works (3 steps)
+
+1) Connect your channels (forms, ads, WhatsApp, email)
+2) Build your pipeline (stages, tasks, team roles)
+3) Automate & scale (follow-ups, reminders, reporting)
+
+CTA Section
+
+Title: Ready to turn leads into revenue — automatically?
+Text: Book a demo and we’ll map MAYBEL to your business in 20 minutes.
+CTA: Book a Demo
+
+2) PRODUCT (EN)
+Page Title
+
+Product
+Subtitle: Everything your business needs to attract, convert, and retain customers — in one platform.
+
+Sections
+CRM & Pipeline
+
+Organize every lead, deal, and customer with clear stages, tasks, and ownership.
+
+Omnichannel Messaging
+
+Reach customers via WhatsApp, SMS, email, and social messaging — with full conversation history.
+
+Automations
+
+Create workflows that follow up, tag, notify your team, and move deals automatically.
+
+Funnels & Pages
+
+Launch high-converting landing pages and funnels without waiting for developers.
+
+Booking & Scheduling
+
+Let customers book instantly — with reminders that reduce no-shows.
+
+Reporting
+
+Track leads, conversion rates, sales performance, and campaign ROI.
+
+3) SOLUTIONS (EN)
+Page Title
+
+Solutions
+Subtitle: Built for businesses that need speed, structure, and scalable growth.
+
+For Agencies
+
+Manage multiple clients, deliver results faster, and standardize operations.
+
+For Local Businesses
+
+More calls, more bookings, better follow-ups — without hiring extra staff.
+
+For Sales Teams
+
+Pipelines, tasks, and automated sequences to shorten your sales cycle.
+
+For Service Businesses
+
+Appointments, reminders, reviews, and repeat business — on autopilot.
+
+4) PRICING (EN) – 3 Packages
+Page Title
+
+Pricing
+Subtitle: Choose a plan that fits your growth stage.
+
+Package 1: Starter
+
+Best for: Solo founders & small teams
+Price: [PRICE] / month
+Includes:
+
+CRM & Pipeline
+
+1–2 Team Members
+
+Basic Automations
+
+Booking Calendar
+
+Email Support
+
+CTA: Start Starter
+
+Package 2: Growth
+
+Best for: Growing teams that need automation
+Price: [PRICE] / month
+Includes:
+
+Everything in Starter
+
+Up to [X] Team Members
+
+Advanced Automations
+
+Funnels & Landing Pages
+
+WhatsApp/SMS/Email sequences
+
+Priority Support
+
+CTA: Start Growth
+
+Package 3: Scale
+
+Best for: Multi-teams & high volume
+Price: [PRICE] / month
+Includes:
+
+Everything in Growth
+
+Unlimited Automations
+
+Advanced Reporting & Dashboards
+
+Team Permissions & Roles
+
+Onboarding & Training
+
+Dedicated Success Manager (optional)
+
+CTA: Talk to Sales
+
+Pricing Note: Annual plans available • Cancel anytime
+
+5) INTEGRATIONS (EN)
+Page Title
+
+Integrations
+Subtitle: Connect MAYBEL to your tools and channels.
+
+Integration blocks (examples):
+
+Meta Lead Forms (Facebook/Instagram)
+
+Google Calendar
+
+Stripe (Payments)
+
+WhatsApp (Messaging)
+
+Zapier / Webhooks
+
+Google Sheets (Reporting)
+
+Bottom line: Don’t see your tool? We can connect via API/Webhooks.
+
+6) RESOURCES (EN)
+Page Title
+
+Resources
+Subtitle: Guides, playbooks, and templates to grow faster.
+
+Cards:
+
+The Follow-Up Playbook (PDF)
+
+CRM Pipeline Templates
+
+WhatsApp Sales Scripts
+
+Automation Ideas (10 workflows)
+
+Onboarding Checklist
+
+CTA: Request Templates
+
+7) ABOUT (EN)
+Page Title
+
+About MAYBEL
+Subtitle: We help businesses in UAE & MENA grow with systems — not chaos.
+
+Copy:
+MAYBEL was built to help teams centralize sales, marketing, and customer communication in one place. We believe growth should be measurable, repeatable, and simple — through automation, clear pipelines, and consistent execution.
+
+Values (3):
+
+Simplicity over complexity
+
+Automation that improves service
+
+Real results and transparency
+
+8) CONTACT (EN)
+Page Title
+
+Contact Us
+Subtitle: Tell us about your business — we’ll respond within 24 hours.
+
+Form Fields:
+
+Full Name
+
+Company Name
+
+Email
+
+Phone / WhatsApp
+
+Country
+
+What do you need help with? (dropdown)
+
+Lead generation
+
+CRM setup
+
+Automations
+
+Website/Funnels
+
+Other
+
+Message
+
+CTA Button: Send Message
+
+9) BOOK A DEMO (EN)
+Page Title
+
+Book a Demo
+Subtitle: In 20 minutes, we’ll map the best setup for your business.
+
+Bullets:
+
+Understand your current process
+
+Build the right pipeline structure
+
+Recommend automations for follow-up & upsell
+
+Define the best plan for your team
+
+CTA: Book Now
+
+10) FAQ (EN)
+
+Q1: Is MAYBEL available in Arabic and English?
+Yes, MAYBEL supports Arabic + English workflows and is built for MENA teams.
+
+Q2: How fast can we launch?
+Most businesses go live in days depending on complexity and data.
+
+Q3: Do you provide onboarding?
+Yes — we can provide onboarding, templates, and guided setup.
+
+Q4: Can I connect WhatsApp and payments?
+Yes, WhatsApp messaging and Stripe payments can be integrated.
+
+Q5: Can agencies manage multiple clients?
+Yes, MAYBEL is designed for agencies and multi-account structures.
+
+النسخة العربية (AR) — 10 صفحات جاهزة للنسخ
+1) الصفحة الرئيسية (AR)
+العنوان الرئيسي
+
+منصة نمو شاملة لإدارة المبيعات والتسويق والأتمتة
+الوصف: MAYBEL تجمع CRM، الأتمتة، الرسائل، الصفحات، الحجوزات، والتحليلات في نظام واحد — مصمم للتوسع في الإمارات ومنطقة MENA.
+زر رئيسي: احجز عرضا
+زر ثانوي: شاهد الأسعار
+سطر ثقة: إعداد خلال أيام • عربي + إنجليزي • مناسب للفرق
+
+المشكلة والحل
+
+مشكلتك: أدوات متعددة غير مترابطة تؤدي لفقدان العملاء وتأخير المتابعة.
+الحل: MAYBEL توحد كل شيء وتنفذ المتابعة تلقائيا.
+
+فوائد أساسية
+
+إغلاق صفقات أسرع عبر متابعة تلقائية
+
+توفير ساعات أسبوعيا بفضل الأتمتة
+
+رؤية واضحة عبر التقارير ولوحات التحكم
+
+أبرز الميزات
+
+إدارة العملاء والصفقات (CRM)
+
+رسائل واتساب / SMS / بريد
+
+صفحات هبوط وفَنِل
+
+حجوزات وتقويم
+
+أتمتة وWorkflows
+
+تقارير وتحليلات
+
+كيف تعمل (3 خطوات)
+
+ربط القنوات
+
+بناء مراحل البيع
+
+أتمتة وتوسع
+
+دعوة للإجراء
+
+جاهز لتحويل العملاء المحتملين إلى مبيعات تلقائيا؟
+احجز عرضا وسنحدد أفضل إعداد لعملك خلال 20 دقيقة.
+زر: احجز عرضا
+
+2) المنتج (AR)
+
+كل ما تحتاجه لجذب العملاء وتحويلهم والاحتفاظ بهم في منصة واحدة.
+
+CRM ومراحل البيع
+
+رسائل متعددة القنوات
+
+أتمتة المتابعة والتنبيهات
+
+صفحات وفنلات
+
+حجوزات وتذكيرات
+
+تقارير وقياس النتائج
+
+3) الحلول (AR)
+
+للوكالات: إدارة عدة عملاء ومعايير تشغيل ثابتة
+
+للأعمال المحلية: حجوزات ومتابعة أسرع
+
+لفرق المبيعات: مراحل واضحة وتنفيذ منظم
+
+للخدمات: تذكيرات ومراجعات وعودة العملاء
+
+4) الأسعار (AR)
+Starter
+
+السعر: [PRICE] شهريا
+يشمل: CRM + أتمتة أساسية + تقويم + دعم
+
+Growth
+
+السعر: [PRICE] شهريا
+يشمل: كل ما سبق + أتمتة متقدمة + صفحات + رسائل
+
+Scale
+
+السعر: [PRICE] شهريا
+يشمل: كل ما سبق + تقارير متقدمة + أدوار وصلاحيات + تدريب
+
+5) التكاملات (AR)
+
+Meta Leads
+
+Google Calendar
+
+Stripe
+
+WhatsApp
+
+Zapier / Webhooks
+
+Google Sheets
+
+6) الموارد (AR)
+
+أدلة وقوالب جاهزة:
+
+دليل المتابعة
+
+قوالب CRM
+
+سكربتات واتساب
+
+أفكار أتمتة
+
+قائمة Onboarding
+
+7) من نحن (AR)
+
+MAYBEL تساعد الشركات في الإمارات وMENA على النمو عبر أنظمة واضحة وأتمتة ذكية بدل العمل العشوائي.
+
+8) تواصل معنا (AR)
+
+نموذج التواصل:
+
+الاسم
+
+الشركة
+
+البريد
+
+الهاتف/واتساب
+
+الدولة
+
+احتياجك
+
+الرسالة
+زر: إرسال
+
+9) احجز عرضا (AR)
+
+خلال 20 دقيقة سنقوم بـ:
+
+فهم نظامك الحالي
+
+تصميم مراحل البيع
+
+اقتراح أتمتة المتابعة والـUpsell
+
+تحديد الخطة المناسبة
+
+10) الأسئلة الشائعة (AR)
+
+هل تدعم العربية والإنجليزية؟ نعم
+
+كم يستغرق الإطلاق؟ عادة خلال أيام
+
+هل يوجد Onboarding؟ نعم
+
+هل يمكن ربط واتساب وStripe؟ نعم
+
+هل يناسب الوكالات؟ نعم
+
+BONUS: Footer (EN + AR)
+
+EN: © [YEAR] MAYBEL. All rights reserved. | Privacy Policy | Terms
+AR: © [YEAR] MAYBEL. جميع الحقوق محفوظة | سياسة الخصوصية | الشروط والأحكام
