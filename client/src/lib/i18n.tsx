@@ -127,8 +127,8 @@ const translations: Record<string, Record<string, string>> = {
     "contact.global.desc": "Supporting businesses remotely and efficiently, with a strong focus on high-speed markets.",
     "contact.fast.title": "Fast Response",
     "contact.fast.desc": "We practice what we preach. Expect a speedy reply to your inquiry.",
-    "contact.calendar.title": "Choose a time that works for you.",
-    "contact.calendar.subtitle": "It takes less than 60 seconds to schedule.",
+    "contact.calendar.title": "Schedule your private consultation.",
+    "contact.calendar.subtitle": "It takes less than a minute.",
 
     "pricing.title": "Pricing",
     "pricing.subtitle": "Annual discount available.",
@@ -278,8 +278,8 @@ const translations: Record<string, Record<string, string>> = {
     "contact.global.desc": "ندعم الشركات عن بعد وبكفاءة، مع تركيز قوي على الأسواق سريعة النمو.",
     "contact.fast.title": "رد سريع",
     "contact.fast.desc": "نطبق ما نعلّمه. توقع رداً سريعاً على استفسارك.",
-    "contact.calendar.title": "اختر الوقت المناسب لك.",
-    "contact.calendar.subtitle": "يستغرق الأمر أقل من 60 ثانية لحجز موعد.",
+    "contact.calendar.title": "حدد موعد استشارتك الخاصة.",
+    "contact.calendar.subtitle": "يستغرق الأمر أقل من دقيقة.",
 
     "pricing.title": "الأسعار",
     "pricing.subtitle": "خصم سنوي متاح.",
