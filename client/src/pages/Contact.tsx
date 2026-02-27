@@ -159,18 +159,6 @@ export default function Contact() {
                       </div>
                       
                       <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">{t("contact.form.phone")}</label>
-                        <input
-                          data-testid="input-phone"
-                          type="tel"
-                          required
-                          value={formData.phone}
-                          onChange={e => setFormData(p => ({ ...p, phone: e.target.value }))}
-                          className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
-                        />
-                      </div>
-
-                      <div className="space-y-2">
                         <label className="text-sm font-semibold text-slate-700">{t("contact.form.email")}</label>
                         <input
                           data-testid="input-email"
@@ -178,6 +166,18 @@ export default function Contact() {
                           required
                           value={formData.email}
                           onChange={e => setFormData(p => ({ ...p, email: e.target.value }))}
+                          className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
+                        />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-semibold text-slate-700">{t("contact.form.phone")}</label>
+                        <input
+                          data-testid="input-phone"
+                          type="tel"
+                          required
+                          value={formData.phone}
+                          onChange={e => setFormData(p => ({ ...p, phone: e.target.value }))}
                           className="w-full h-12 px-4 rounded-xl border border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-slate-50 focus:bg-white"
                         />
                       </div>
