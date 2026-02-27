@@ -64,7 +64,7 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-bold text-slate-900 mb-1">Email Us</h3>
                       <p className="text-slate-600 mb-2">Our friendly team is here to help.</p>
-                      <a href="mailto:support@maybel.io" className="text-primary font-medium hover:underline">support@maybel.io</a>
+                      <a href="mailto:info@maybel.io" className="text-primary font-medium hover:underline">info@maybel.io</a>
                     </div>
                   </div>
 
