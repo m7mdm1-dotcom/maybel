@@ -4,6 +4,27 @@ import { serveStatic } from "./static";
 import { createServer } from "http";
 
 const app = express();
+
+// ===== SECURITY HEADERS =====
+app.use((req, res, next) => {
+  res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+  res.setHeader("X-Frame-Options", "SAMEORIGIN");
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
+  res.setHeader("Content-Security-Policy",
+    "default-src 'self'; " +
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://beta.leadconnectorhq.com https://fonts.googleapis.com; " +
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
+    "font-src 'self' https://fonts.gstatic.com; " +
+    "img-src 'self' data: https:; " +
+    "connect-src 'self' https:; " +
+    "frame-src 'self' https://beta.leadconnectorhq.com;"
+  );
+  res.removeHeader("X-Powered-By");
+  next();
+});
+// ===== END SECURITY HEADERS =====
 const httpServer = createServer(app);
 
 declare module "http" {
