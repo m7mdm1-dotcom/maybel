@@ -19,7 +19,7 @@ app.use((req, res, next) => {
     "font-src 'self' https://fonts.gstatic.com; " +
     "img-src 'self' data: https:; " +
     "connect-src 'self' https:; " +
-    "frame-src 'self' https://beta.leadconnectorhq.com https://link.maybel.io https://api.leadconnectorhq.com https://app.maybel.io;"
+    "frame-src 'self' https://beta.leadconnectorhq.com https://link.maybel.io https://api.leadconnectorhq.com https://app.maybel.io https://maybel.io;"
   );
   res.removeHeader("X-Powered-By");
   next();
