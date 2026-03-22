@@ -101,7 +101,7 @@ export default function Contact() {
                     <iframe
                       src={CALENDAR_URL}
                       className="w-full rounded-xl border-0"
-                      style={{ height: "600px", colorScheme: "normal" }}
+                      style={{ height: "800px", colorScheme: "normal" }}
                       scrolling="no"
                       data-testid="calendar-iframe"
                       title="Book a call"
